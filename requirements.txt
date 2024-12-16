@@ -80,7 +80,7 @@ torchvision==0.20.0
 tqdm==4.67.1
 transformers==4.30.2
 triton==3.1.0
-typing_extensions==4.7.1
+typing_extensions==4.8.0
 tzdata==2024.2
 ultralytics==8.3.40
 ultralytics-thop==2.0.12
