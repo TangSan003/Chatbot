@@ -34,7 +34,7 @@ mkl-random==1.2.8
 mpmath==1.2.1
 networkx==3.1
 nltk==3.9.1
-numpy==2.0.1
+numpy==1.26.4
 nvidia-cublas-cu12==12.4.5.8
 nvidia-cuda-cupti-cu12==12.4.127
 nvidia-cuda-nvrtc-cu12==12.4.127
