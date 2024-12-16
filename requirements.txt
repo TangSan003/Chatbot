@@ -1,3 +1,4 @@
+pip
 absl-py==2.1.0
 accelerate==0.26.0
 blinker==1.9.0
@@ -14,7 +15,7 @@ Flask-Cors==5.0.0
 fonttools==4.55.0
 fsspec==2024.10.0
 git-filter-repo==2.47.0
-gmpy2==2.1.0b5
+gmpy2
 grpcio==1.68.0
 gunicorn==23.0.0
 huggingface-hub==0.26.2
