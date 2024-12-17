@@ -18,13 +18,13 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 # loading the predictor
 print('Loading Model...')
 model = SentimentClassifier()
-model.load_state_dict(torch.load('inference.pth'))
+model.load_state_dict(torch.load('https://drive.google.com/file/d/1LDrAMdW9c--_OYAseNgOBjZv_yZEvYMa/view?usp=drive_link'))
 
 print('Initializing Predictor...')
 predictor = Predictor(model)
 
 # Chat bot API
-model_path = "/home/tangsan/NLP/KLTNWEB/Chatbot/chatbot"
+model_path = "https://drive.google.com/drive/folders/1YFk9cKUx6sHJGmMY7uhjEWcinVky6ajA?usp=drive_link"
 
 model = BertForSequenceClassification.from_pretrained(model_path)
 tokenizer= BertTokenizerFast.from_pretrained(model_path)
